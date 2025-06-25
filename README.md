@@ -1,25 +1,44 @@
 # <img src="favicon.svg" width=25/> Módulo xx - AExx_ABPRO - "name...." <img src="favicon.svg" width=25/>
 
+**MAQUETA SUGERIDA:**
 ![mockup o entrega del ejercicio][0]
 
+**MODAL DE RESERVA:**
+![mockup o entrega del ejercicio][1]
+
+-----------
+
+
+
 ## 😶‍🌫️ GRUPO 1 somos:
-* Hernán Barrales
-* Jorge Rodríguez
-* Natalia Devia
 * Sebastián Gallegos
+* Natalia Devia
+* Jorge Rodríguez
+* Hernán Barrales
 * Carlos Pizarro
+
+## CONTEXTO
+
+Un grupo de amigos ha decidido abrir un cine local llamado CineFlash, especializado en películas de estreno. Aunque han tenido un buen flujo de público, su sistema de reservas de entradas aún es manual, lo que ocasiona que algunos asientos se agoten o que las reservas se dupliquen, ya que no cuentan con un sistema de control en línea. Además, el proceso de pago es complicado y no se puede realizar directamente en línea, lo que ha causado inconvenientes.
 
 ## 🚀 OBJETIVO
 
-En este ejercicio individual, se debe ...
+Se necesita desarrollar una página web que permita a los usuarios:
+✅ ❓
+- Consultar los horarios de las películas.
+- Reservar asientos para una función.
+- Realizar el pago directamente en el sitio.
+- La página debe ser atractiva, fácil de usar y con una navegación fluida.
 
 ## 👉 REQUISITOS
 
-1. blah...✅ ❓
-
-## 📃 INSTRUCCIONES
-
-1. ✅ Crea ....
+Crear una página web utilizando HTML, CSS, jQuery y Bootstrap que contenga las siguientes funcionalidades:
+✅ ❓
+1. Una galería de películas disponibles con imágenes.
+1. Un formulario de reserva con las opciones de seleccionar la película, la hora de la función y los asientos disponibles.
+1. Un sistema de pago integrado en la página. (Este sistema no tiene que funcionar, es simulado)
+1. Un sistema de confirmación visual que muestre los detalles de la reserva una vez confirmada.
+1. Los estudiantes deben implementar funcionalidades utilizando jQuery para interactuar con el DOM, manipular elementos, manejar eventos y realizar la integración con Bootstrap.
 
 ## 📁 ESTRUCTURA DEL PROYECTO
 
@@ -35,8 +54,9 @@ En este ejercicio individual, se debe ...
     ├── 📁js/  
     │   └── main.js
     └── 📁utils/  
-        ├── mockuppng
-        └── blablah
+        ├── mockup-1.png
+        ├── mockup-2.png
+        └── logo.svg
 ```
 
 ## 👀 NOTAS
@@ -44,21 +64,14 @@ En este ejercicio individual, se debe ...
 - Joe Pino...
 
 ## 📖 DOCUMENTACIÓN CONSULTADA
-* [][2]
-* [][3]
-* [][4]
-* [][5]
+* [Bootstrap][2]
 
 ## 🧰 UTILIDADES
 
-* [][6]
+* Naada por acá...
 
 <!-- Enlaces referenciados arriba -->
-[0]:./assets/utils/mockup.png
-[1]:
-[2]:
-[3]:
-[4]:
-[5]:
-[6]:
+[0]:./assets/utils/mockup-1.png
+[1]:./assets/utils/mockup-2.png
+[2]:https://getbootstrap.com
 
