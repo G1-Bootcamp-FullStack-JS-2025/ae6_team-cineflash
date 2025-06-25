@@ -23,14 +23,20 @@
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
     crossorigin="anonymous"></script>
 
-  <title>TITULO</title>
+  <title>Cineflash</title>
 </head>
 
 <body>
-  <!-- main -->
-  <h1 class="display-5 text-center">Bienvenidos a CineFlash</h1>
+  <!-- navbar -->
+  <nav class="navbar bg-body-tertiary py-3">
+    <div class="container-fluid">
+      <span class="mb-0 display-5">Bienvenidos a Cineflash</span>
+    </div>
+  </nav>
 
-  <main class="container">
+  <!-- main -->
+  <main class="container mt-5">
+    <h1 class="display-6">Cartelera</h1>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
       <!-- card -->
@@ -232,6 +238,11 @@
       </div>
     </div>
   </div>
+
+  <footer class="py-5 mt-5 text-center">
+    <img src="./assets/utils/logo.svg" alt="" height="30"> G1 2025 &copy;
+    Todos los derechos reservados.
+  </footer>
 
   <script>
     // Al enviar el formulario de reserva, mostrar los datos en el modal de confirmación

@@ -37,8 +37,8 @@ Crear una página web utilizando HTML, CSS, jQuery y Bootstrap que contenga las 
 1. ✅Una galería de películas disponibles con imágenes.
 1. ✅Un formulario de reserva con las opciones de seleccionar la película, la hora de la función y los asientos disponibles.
 1. ✅Un sistema de pago integrado en la página. (Este sistema no tiene que funcionar, es simulado)
-1. Un sistema de confirmación visual que muestre los detalles de la reserva una vez confirmada.
-1. Los estudiantes deben implementar funcionalidades utilizando jQuery para interactuar con el DOM, manipular elementos, manejar eventos y realizar la integración con Bootstrap.
+1. ✅Un sistema de confirmación visual que muestre los detalles de la reserva una vez confirmada.
+1. ❓Los estudiantes deben implementar funcionalidades utilizando jQuery para interactuar con el DOM, manipular elementos, manejar eventos y realizar la integración con Bootstrap.
 
 ## 📁 ESTRUCTURA DEL PROYECTO
 
