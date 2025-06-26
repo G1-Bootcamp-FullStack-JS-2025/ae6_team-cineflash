@@ -4,15 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="grupo 1">
-  <meta name="project" content="modulo xx - aexx_abpro - nombre">
+  <meta name="author" content="grupo 1: Hernán, Jorge, Nati, Seba Gallegos y Carlos Pizarro">
+  <meta name="project" content="modulo 2 - ae6_abpro - Cineflash">
   <meta name="description"
-    content="Actividad grupal evaluada del bootcamp Full Stack Javascript con Skillnest: xx - qué hace.">
-  <meta name="keywords" content="bootstrap css, Recitronic">
+    content="Actividad grupal evaluada del bootcamp Full Stack Javascript con Skillnest: frontend ficticio para reservar entradas al cine.">
+  <meta name="keywords" content="html, bootstrap css, jquery, Cineflash">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="shortcut icon" href="favicon.svg" type="image/svg">
   <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -28,15 +27,15 @@
 
 <body>
   <!-- navbar -->
-  <nav class="navbar bg-body-tertiary py-3">
-    <div class="container-fluid">
+  <nav class="navbar py-3">
+    <div class="container-fluid px-5">
       <span class="mb-0 display-5">Bienvenidos a Cineflash</span>
     </div>
   </nav>
 
   <!-- main -->
   <main class="container mt-5">
-    <h1 class="display-6">Cartelera</h1>
+    <!-- <h1 class="display-6">Cartelera</h1> -->
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
       <!-- card -->
@@ -45,7 +44,7 @@
           <img src="assets/img/bailarina.jfif" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Bailarina</h5>
-            <a href="#" class="btn btn-primary btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
+            <a href="#" class="btn btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
               data-pelicula="Bailarina">Reservar</a>
           </div>
         </div>
@@ -57,7 +56,7 @@
           <img src="assets/img/como-entrenar-a-tu-dragon.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Cómo entrenar a tu dragón</h5>
-            <a href="#" class="btn btn-primary btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
+            <a href="#" class="btn btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
               data-pelicula="Como entrenar a tu dragón">Reservar</a>
           </div>
         </div>
@@ -70,7 +69,7 @@
           <img src="assets/img/destino-final.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Destino Final - Lazos de sangre</h5>
-            <a href="#" class="btn btn-primary btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
+            <a href="#" class="btn btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
               data-pelicula="Destino Final">Reservar</a>
           </div>
         </div>
@@ -83,7 +82,7 @@
           <img src="assets/img/denominacion-de-origen.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Denominación de origen</h5>
-            <a href="#" class="btn btn-primary btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
+            <a href="#" class="btn btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
               data-pelicula="Denominación de origen">Reservar</a>
           </div>
         </div>
@@ -96,7 +95,7 @@
           <img src="assets/img/dune.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Dune</h5>
-            <a href="#" class="btn btn-primary btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
+            <a href="#" class="btn btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
               data-pelicula="Dune">Reservar</a>
           </div>
         </div>
@@ -109,7 +108,7 @@
           <img src="assets/img/elio.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Elio</h5>
-            <a href="#" class="btn btn-primary btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
+            <a href="#" class="btn btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
               data-pelicula="Elio">Reservar</a>
           </div>
         </div>
@@ -121,7 +120,7 @@
           <img src="assets/img/exterminio.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Exterminio: la evolución</h5>
-            <a href="#" class="btn btn-primary btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
+            <a href="#" class="btn btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
               data-pelicula="Exterminio: la evolución">Reservar</a>
           </div>
         </div>
@@ -132,7 +131,7 @@
           <img src="assets/img/jurassic-world.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Jurassic World: El renacer</h5>
-            <a href="#" class="btn btn-primary btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
+            <a href="#" class="btn btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
               data-pelicula="Jurassic World: El renacer">Reservar</a>
           </div>
         </div>
@@ -143,7 +142,7 @@
           <img src="assets/img/karate-kid.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Karate Kids Legends</h5>
-            <a href="#" class="btn btn-primary btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
+            <a href="#" class="btn btn-reservar" data-bs-toggle="modal" data-bs-target="#reservar"
               data-pelicula="Karate Kids Legends">Reservar</a>
           </div>
         </div>
@@ -198,8 +197,8 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="submit" class="btn btn-success">Confirmar Reserva</button>
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="submit" class="btnbtn-success">Confirmar Reserva</button>
+            <button type="button" class="btnbtn-secondary" data-bs-dismiss="modal">Cancelar</button>
           </div>
         </form>
       </div>
@@ -233,14 +232,14 @@
           </ul>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
   </div>
 
-  <footer class="py-5 mt-5 text-center">
-    <img src="./assets/utils/logo.svg" alt="" height="30"> G1 2025 &copy;
+  <footer class="d-flex align-content-center mt-5 justify-content-center text-center py-5">
+    <img src="./assets/utils/logo.svg" alt="" height="30"> G1 team 2025 &copy;
     Todos los derechos reservados.
   </footer>
 

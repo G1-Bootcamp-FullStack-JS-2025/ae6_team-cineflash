@@ -1,12 +1,62 @@
 /* IMPORTS, VARIABLES & MICRO RESET */
-/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
-
-:root {
-  --gap: 40px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
+
+body {
+  background: linear-gradient(#fffbf9, #ffe3bb);
+}
+
+footer {
+  background: #d5bd9c;
+  font-size: 1.125rem;
+}
+
+footer img {
+  border-radius: 4px;
+  margin-right: 8px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  background: #3cd3d3;
+  font-size: 1.125rem;
+}
+
+.navbar {
+  background: #ffe3bb;
+  font-family: "Limelight", sans-serif;
+  color: rgb(43, 43, 43);
+}
+
+.display-5 {
+ 
+  font-size: 4rem;
+  font-weight: bold;
+  background: linear-gradient(
+    270deg,
+    #ff6ec4,
+    #7873f5,
+    #47caff,
+    #6affa0,
+    #f5e06c,
+    #ff6ec4
+  );
+  background-size: 1000% 1000%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 8s ease infinite;
+  text-align: center;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
