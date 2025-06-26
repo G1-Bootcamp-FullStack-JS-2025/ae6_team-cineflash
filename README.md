@@ -13,6 +13,10 @@
 
 --------------
 
+[**Link a Github page de la entrega**][6]
+
+---------------
+
 ## 😶‍🌫️ GRUPO 1 somos:
 * Sebastián Gallegos
 * Natalia Devia
@@ -91,3 +95,4 @@ Crear una página web utilizando HTML, CSS, jQuery y Bootstrap que contenga las 
 [3]:./index.html#L246
 [4]:https://api.jquery.com
 [5]:./assets/utils/entrega.png
+[6]:https://github.com/G1-Bootcamp-FullStack-JS-2025
