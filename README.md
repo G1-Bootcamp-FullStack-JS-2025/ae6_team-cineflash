@@ -95,4 +95,4 @@ Crear una página web utilizando HTML, CSS, jQuery y Bootstrap que contenga las 
 [3]:./index.html#L246
 [4]:https://api.jquery.com
 [5]:./assets/utils/entrega.png
-[6]:https://github.com/G1-Bootcamp-FullStack-JS-2025
+[6]:https://g1-bootcamp-fullstack-js-2025.github.io/ae6_team-cineflash/
