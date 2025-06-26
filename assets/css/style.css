@@ -14,17 +14,42 @@ body {
 footer {
   background: #d5bd9c;
   font-size: 1.125rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer img {
   border-radius: 4px;
   margin-right: 8px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer a {
+  margin-left: 10px;
+
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a img {
+  height: 20px;
+  text-align: middle;
 }
 
 .btn {
   background: #3cd3d3;
   font-size: 1.125rem;
+}
+
+.btn:hover:not(.btn-success) {
+  background-color: #30a7a7;
+}
+
+.btn-success {
+  background-color: rgb(43, 151, 43);
 }
 
 .navbar {
@@ -34,7 +59,6 @@ footer img {
 }
 
 .display-5 {
- 
   font-size: 4rem;
   font-weight: bold;
   background: linear-gradient(
